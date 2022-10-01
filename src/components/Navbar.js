@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick (!click)
-  const closeMenu = () => setClick (false)
+  // const closeMenu = () => setClick (false)
 
   return (
 

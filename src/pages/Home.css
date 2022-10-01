@@ -15,12 +15,15 @@
     width: 350px;
     height: 350px;
     border-radius: 100%;
-    transition: all .5s;
+    transition: all .25s;
+    z-index: 99;
+
 }
 
 .circle:hover{
     box-shadow: 0 0 20px white;
     border:black 1px solid;
+    z-index: 1;
 }
 
 .yellow{
@@ -44,7 +47,7 @@
 a{
     text-decoration: none;
     filter: brightness(.85);
-    transition: all .5s;
+    transition: all .25s;
 }
 
 a:hover{
