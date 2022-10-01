@@ -1,0 +1,46 @@
+.home-container{
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 34px;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.yellow{
+    background-color: #ffcd0c;
+}
+
+.magenta{
+    position: relative;
+    background-color: #d007a9;
+    top: -100px;
+    right: 150px;
+}
+
+.aqua{
+    position: relative;
+    background-color: #05acaf;
+    top: -450px;
+    left: 150px;
+}
+
+a{
+    text-decoration: none;
+    filter: brightness(.9);
+    transition: all .5s;
+}
+
+a:hover{
+    filter: brightness(1.1)
+}
