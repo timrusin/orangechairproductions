@@ -84,7 +84,6 @@
     top: -40px;
     margin: 10px 0 10px 0;
     transition: all 50ms;
-    
 }
 
 .menu-dashes-angle1{
@@ -124,50 +123,70 @@
     transition: height 500ms ease;;
   }
 
-@media screen and (max-width: 965px) {
-.navbar {
-    height: 75px;
-}
+@media screen and (max-width: 1050px) {
+    .navbar{
+        height: 80px;
+    }
+    
+    .title{
+        margin-left: 0px;
+    }
+    
+    
+    .main-title{
+        font-size: 30px;
+        width: 200px;
+        top: -112px;
+        left: 80px;
+    }
+
+    .main-title:hover {
+        color: white;
+    }
+
+    .sub-title{
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.517);
+        top: 56px;
+        right: 10px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .nav-menu.active {
+        z-index: 9999;
+        height: 100px;
+        top: 90px;
+        left: 0px;
+        background: rgb(27, 27, 27);
+        border-bottom: rgba(255, 255, 255, 0.49) 4px solid;
+        transition: height 500ms ease;;
+    }
+
+    
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-items:left;
+        margin-left: 15px;
+        top: 5px;
+        font-size: 25px;
+    }
+
+    .nav-item {
+        padding-bottom: 3px;
+    }
 
 
-#title h1 {
-    font-size: 2em;
-}
 
-#sub-title {
-    position: absolute;
-    top: 40px;
-    width: 300px;
-    margin-top: 2px;
-}
-
-  #title h4 {
-    font-size: 1em;
-}
-
-  .nav-links {
-      display: flex;
-      flex-direction: column;
-      margin-left: 15px;
-      top: 5px;
-      font-size: 25px;
-  }
-
-  .nav-item {
-      padding-bottom: 3px;
-  }
-
-
-  #title {
-     margin-left: 15px;
-}
-  .active {
-     display: flex;
-     flex-direction: column;
-     align-items: left;
-}
-
-.hide {
-    display: none;
-}
+    .hide {
+        display: none;
+    }
 }

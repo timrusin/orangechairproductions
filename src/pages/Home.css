@@ -16,8 +16,6 @@
     height: 350px;
     border-radius: 100%;
     transition: all .25s;
-    z-index: 99;
-
 }
 
 .circle:hover{
@@ -53,4 +51,37 @@ a{
 
 a:hover{
     filter: brightness(1.05);
+}
+
+@media screen and (max-width: 1050px) {
+    .circle{
+        font-size: 20px;
+        width: 200px;
+        height: 200px;
+        box-shadow: 0 0 10px white;
+        border:black 1px solid;
+        color: black;
+        border-radius: 100%;
+        transition: all .25s;
+    }
+
+    .yellow{
+        background-color: #ffcd0c;
+    }
+    
+    
+    .magenta{
+        position: relative;
+        background-color: #d007a9;
+        top: -75px;
+        right: 85px;
+    }
+    
+    .aqua{
+        position: relative;
+        background-color: #05acaf;
+        top: -275px;
+        left: 85px;
+    }
+
 }
