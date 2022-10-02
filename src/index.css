@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background: rgb(27, 27, 27);
+  color: white;
   font-family:'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

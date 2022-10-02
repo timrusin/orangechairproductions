@@ -1,8 +1,11 @@
 import React from 'react'
+import './LoFi.css'
 
 const LoFi = () => {
   return (
-    <div>LoFi</div>
+    <container className="LoFi-container">
+      <h1>LoFi</h1>
+    </container>
   )
 }
 

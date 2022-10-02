@@ -28,6 +28,9 @@ const Navbar = () => {
 
         <div className={click ? "nav-menu active" : "nav-menu"}>
           <nav className="nav-links">
+            <Link to="" className='nav-item'>Testing</Link>
+            <Link to="" className='nav-item'>Testing</Link>
+            <Link to="" className='nav-item'>Testing</Link>
             
           </nav>
         </div>

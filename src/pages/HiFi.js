@@ -1,8 +1,11 @@
 import React from 'react'
+import './HiFi.css'
 
 const HiFi = () => {
   return (
-    <div>HiFi</div>
+    <container className="HiFi-container">
+      <h1>HiFi</h1>
+    </container>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import './Orange.css'
 
 const Orange = () => {
   return (
-    <div>Orange</div>
+  <container className="orange-container">
+    <h1>Orange Chair</h1>
+  </container>
   )
 }
 
