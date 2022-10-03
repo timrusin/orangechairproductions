@@ -134,7 +134,7 @@
     }
     
     .main-title{
-        font-size: 6vw;
+        font-size: 1.5em;
         width: 75%;
         top: -100px;
         left: 60px;
@@ -146,7 +146,7 @@
 
     .sub-title{
         width: 60%;
-        font-size: 2.25vw;
+        font-size: .6em;
         top: -118px;
         left: 75px;
     }
