@@ -156,10 +156,14 @@
         flex-direction: column;
         position: absolute;
         color: rgba(255, 255, 255, 0.517);
-        top: 56px;
+        top: 70px;
         right: 10px;
         font-size: 20px;
         cursor: pointer;
+    }
+
+    .menu-dashes{
+        margin: 5px 0;
     }
 
     .nav-menu.active {
