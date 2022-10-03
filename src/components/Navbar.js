@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick (!click)
-  // const closeMenu = () => setClick (false)
+  const closeMenu = () => setClick (false)
 
   return (
 
@@ -28,9 +28,9 @@ const Navbar = () => {
 
         <div className={click ? "nav-menu active" : "nav-menu"}>
           <nav className="nav-links">
-            <Link to="" className='nav-item'>Link 1</Link>
-            <Link to="" className='nav-item'>Link 2</Link>
-            <Link to="" className='nav-item'>Link 3</Link>
+            <Link to="" className='nav-item' onClick={closeMenu}>Link 1</Link>
+            <Link to="" className='nav-item' onClick={closeMenu}>Link 2</Link>
+            <Link to="" className='nav-item' onClick={closeMenu}>Link 3</Link>
             
           </nav>
         </div>
