@@ -1,7 +1,7 @@
 .navbar {
     height: 90px;
     color: white;
-    border-bottom: rgba(255, 255, 255, 0.49) 4px solid;
+    border-bottom: rgba(255, 255, 255, 0.49) 2px solid;
 }
 
 .title{
@@ -132,12 +132,11 @@
         margin-left: 0px;
     }
     
-    
     .main-title{
-        font-size: 30px;
-        width: 200px;
-        top: -112px;
-        left: 80px;
+        font-size: 25px;
+        width: 290px;
+        top: -100px;
+        left: 60px;
     }
 
     .main-title:hover {
@@ -145,7 +144,10 @@
     }
 
     .sub-title{
-        display: none;
+        width: 250px;
+        font-size: 8.5px;
+        top: -118px;
+        left: 75px;
     }
 
     .menu-icon {
@@ -155,36 +157,29 @@
         color: rgba(255, 255, 255, 0.517);
         top: 56px;
         right: 10px;
-        font-size: 30px;
+        font-size: 20px;
         cursor: pointer;
     }
 
     .nav-menu.active {
         z-index: 9999;
         height: 100px;
-        top: 90px;
-        left: 0px;
+        top: 80px;
         background: rgb(27, 27, 27);
-        border-bottom: rgba(255, 255, 255, 0.49) 4px solid;
+        border-bottom: rgba(255, 255, 255, 0.49) 2px solid;
         transition: height 500ms ease;;
     }
-
-    
 
     .nav-links {
         display: flex;
         flex-direction: column;
-        justify-items:left;
-        margin-left: 15px;
-        top: 5px;
-        font-size: 25px;
+        align-items: baseline;
+        font-size: 20px;
     }
 
     .nav-item {
         padding-bottom: 3px;
     }
-
-
 
     .hide {
         display: none;

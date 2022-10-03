@@ -28,9 +28,9 @@ const Navbar = () => {
 
         <div className={click ? "nav-menu active" : "nav-menu"}>
           <nav className="nav-links">
-            <Link to="" className='nav-item'>Testing</Link>
-            <Link to="" className='nav-item'>Testing</Link>
-            <Link to="" className='nav-item'>Testing</Link>
+            <Link to="" className='nav-item'>Link 1</Link>
+            <Link to="" className='nav-item'>Link 2</Link>
+            <Link to="" className='nav-item'>Link 3</Link>
             
           </nav>
         </div>
