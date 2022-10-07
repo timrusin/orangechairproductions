@@ -51,6 +51,7 @@
         height: 30px;
         cursor: pointer;
         transition: all 400ms;
+        z-index: 999;
     }
 
     .lofi-sidebar-button-active{
