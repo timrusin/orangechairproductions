@@ -1,3 +1,82 @@
 .orange-container{
     text-align: center;
 }
+
+.sidebar-container{
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 20px;
+    width: 10%;
+    height: 300px;
+    flex-direction: column;
+    align-content: left;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.orange-sidebar-button{
+    background: none;
+    color: white;
+    font-size: 2vw;
+    border-radius: 5px;
+    padding: .5%;
+    margin: .5%;
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+    transition: all 400ms;
+    filter: opacity(.5)
+}
+
+.orange-sidebar-button:hover{
+    background-color: #ffcd0c;
+    filter: opacity(1)
+}
+
+.about{
+    position: absolute;
+    top: 80px;
+    left: 45%;
+}
+.services{
+    position: absolute;
+    top: 80px;
+    left: 45%;
+}
+.reel{
+    position: absolute;
+    top: 80px;
+    left: 45%;
+}
+.contact{
+    position: absolute;
+    top: 80px;
+    left: 45%;
+}
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .orange-sidebar-container{
+        position:absolute;
+        top: -60px;
+        margin-left: 0;
+        flex-direction: row;
+        height: 6%;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .orange-sidebar-button{
+        font-size: 100%;
+        padding: 1%;
+        margin: 1%;
+        box-shadow: 0 0 5px white;
+        cursor: pointer;
+        transition: all 400ms;
+        filter: opacity(.5)
+    }
+
+}
