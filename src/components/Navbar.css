@@ -96,6 +96,12 @@
         right: 10px;
         font-size: 20px;
         cursor: pointer;
+        transition: all 100ms ease;
+    }
+
+    .menu-icon-180 {
+        transform: rotate(180deg);
+        transition: all 400ms ease;
     }
 
     .nav-menu.active {

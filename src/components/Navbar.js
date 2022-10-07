@@ -7,8 +7,8 @@ const Navbar = () => {
   console.log(click);
   return (
     <nav className='navbar'>
-      <div className='menu-icon' onClick={()=>setClick(!click)}>
-        <i className='fa-solid fa-arrow-down-arrow-up'/>
+      <div className={click? 'menu-icon menu-icon-180' : 'menu-icon'} onClick={()=>setClick(!click)}>
+        <i class="fa-solid fa-arrow-down-long" />
       </div>
         <div className='title' onClick={()=>setClick(!click)}>
             <img
