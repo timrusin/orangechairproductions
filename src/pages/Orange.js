@@ -21,15 +21,27 @@ const Orange = () => {
     </about>
 
     <services className={page === 'services' ? 'active' : 'hide'}>
-      <h1>SERVICES</h1>
+      <section className='displayed'>
+        <h1>Testing Services</h1>
+        <p>Sit nisi eiusmod esse aliqua dolore consectetur voluptate aliquip. Qui amet dolor laborum officia laboris quis duis Lorem dolore non. Officia veniam exercitation veniam laborum. Culpa aute culpa nisi proident magna aliquip qui. Labore ea reprehenderit voluptate pariatur ipsum ea ipsum excepteur. Nostrud labore quis aute dolor quis pariatur reprehenderit nostrud incididunt velit Lorem.</p>
+        <p>Anim fugiat elit aute ipsum culpa Lorem velit ea tempor exercitation culpa fugiat reprehenderit. In amet voluptate adipisicing occaecat proident voluptate ea sint excepteur. Consequat et consectetur nostrud veniam officia ipsum est nostrud proident Lorem veniam eu.</p>
+      </section>
     </services>
 
     <reel className={page === 'reel' ? 'active' : 'hide'}>
-      <h1>REEL</h1>
+      <section className='displayed'>
+        <h1>Testing Reel</h1>
+        <p>Sit nisi eiusmod esse aliqua dolore consectetur voluptate aliquip. Qui amet dolor laborum officia laboris quis duis Lorem dolore non. Officia veniam exercitation veniam laborum. Culpa aute culpa nisi proident magna aliquip qui. Labore ea reprehenderit voluptate pariatur ipsum ea ipsum excepteur. Nostrud labore quis aute dolor quis pariatur reprehenderit nostrud incididunt velit Lorem.</p>
+        <p>Anim fugiat elit aute ipsum culpa Lorem velit ea tempor exercitation culpa fugiat reprehenderit. In amet voluptate adipisicing occaecat proident voluptate ea sint excepteur. Consequat et consectetur nostrud veniam officia ipsum est nostrud proident Lorem veniam eu.</p>
+      </section>
     </reel>
 
     <contact className={page === 'contact' ? 'active' : 'hide'}>
-      <h1>CONTACT</h1>
+      <section className='displayed'>
+        <h1>Testing Contact</h1>
+        <p>Sit nisi eiusmod esse aliqua dolore consectetur voluptate aliquip. Qui amet dolor laborum officia laboris quis duis Lorem dolore non. Officia veniam exercitation veniam laborum. Culpa aute culpa nisi proident magna aliquip qui. Labore ea reprehenderit voluptate pariatur ipsum ea ipsum excepteur. Nostrud labore quis aute dolor quis pariatur reprehenderit nostrud incididunt velit Lorem.</p>
+        <p>Anim fugiat elit aute ipsum culpa Lorem velit ea tempor exercitation culpa fugiat reprehenderit. In amet voluptate adipisicing occaecat proident voluptate ea sint excepteur. Consequat et consectetur nostrud veniam officia ipsum est nostrud proident Lorem veniam eu.</p>
+      </section>
     </contact>
   </container>
   )
