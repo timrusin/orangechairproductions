@@ -38,6 +38,7 @@
 @media screen and (max-width: 600px) {
 
    .hifi-header{
+        z-index: 10;
         position: fixed;
         left: 124px;
         top: 72px;
