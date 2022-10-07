@@ -26,6 +26,21 @@
     z-index: 100;
 }
 
+
+.sidebar-button:hover{
+    background-color: #ffcd0c;
+    filter: opacity(1)
+}
+.sidebar-button-active{
+    background: #ffcd0c;
+    font-size: 2vw;
+    border-radius: 5px;
+    padding: .5%;
+    margin: .5%;
+    box-shadow: 0 0 10px white;
+    transition: all 400ms;
+}
+
 .sidebar-button{
     background: none;
     color: white;
@@ -38,12 +53,6 @@
     transition: all 400ms;
     filter: opacity(.5)
 }
-
-.sidebar-button:hover{
-    background-color: #ffcd0c;
-    filter: opacity(1)
-}
-
 .active{
     position: absolute;
     top: 150px;
@@ -94,6 +103,12 @@
         font-size: 100%;
         width: 80px;
         cursor: pointer;
+        transition: all 400ms;
+    }
+
+    .sidebar-button-active{
+        font-size: 100%;
+        width: 80px;
         transition: all 400ms;
     }
 

@@ -12,11 +12,11 @@ const LoFi = () => {
       </h1>
     </header>
 
-     <navbar className='sidebar-container'>
-        <button className='lofi-sidebar-button' onClick={()=>setPage('about')}>About</button>
-        <button className='lofi-sidebar-button' onClick={()=>setPage('services')}>Services</button>
-        <button className='lofi-sidebar-button' onClick={()=>setPage('reel')}>Reel</button>
-        <button className='lofi-sidebar-button' onClick={()=>setPage('contact')}>Contact</button>
+    <navbar className='sidebar-container'>
+        <button className={page === 'about' ? 'lofi-sidebar-button-active' : 'lofi-sidebar-button'} onClick={()=>setPage('about')}>About</button>
+        <button className={page === 'services' ? 'lofi-sidebar-button-active' : 'lofi-sidebar-button'} onClick={()=>setPage('services')}>Services</button>
+        <button className={page === 'reel' ? 'lofi-sidebar-button-active' : 'lofi-sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
+        <button className={page === 'contact' ? 'lofi-sidebar-button-active' : 'lofi-sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
     </navbar>
 
     <about className={page === 'about' ? 'active' : 'hide'}>

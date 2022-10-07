@@ -13,10 +13,10 @@ const Orange = () => {
     </header>
 
      <navbar className='sidebar-container'>
-        <button className='sidebar-button' onClick={()=>setPage('about')}>About</button>
-        <button className='sidebar-button' onClick={()=>setPage('services')}>Services</button>
-        <button className='sidebar-button' onClick={()=>setPage('reel')}>Reel</button>
-        <button className='sidebar-button' onClick={()=>setPage('contact')}>Contact</button>
+        <button className={page === 'about' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('about')}>About</button>
+        <button className={page === 'services' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('services')}>Services</button>
+        <button className={page === 'reel' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
+        <button className={page === 'contact' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
     </navbar>
 
     <about className={page === 'about' ? 'active' : 'hide'}>

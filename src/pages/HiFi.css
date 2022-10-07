@@ -1,3 +1,13 @@
+.hifi-sidebar-button-active{
+    background: #05acaf;
+    font-size: 2vw;
+    border-radius: 5px;
+    padding: .5%;
+    margin: .5%;
+    box-shadow: 0 0 10px white;
+    transition: all 400ms;
+}
+
 .hifi-sidebar-button{
     background: none;
     color: white;
@@ -10,7 +20,6 @@
     transition: all 400ms;
     filter: opacity(.5)
 }
-
 .hifi-sidebar-button:hover{
     background-color: #05acaf;
     filter: opacity(1)
@@ -52,6 +61,12 @@
         font-size: 100%;
         width: 80px;
         cursor: pointer;
+        transition: all 400ms;
+    }
+
+    .hifi-sidebar-button-active{
+        font-size: 100%;
+        width: 80px;
         transition: all 400ms;
     }
 

@@ -12,11 +12,11 @@ const HiFi = () => {
       </h1>
     </header>
 
-     <navbar className='sidebar-container'>
-        <button className='hifi-sidebar-button' onClick={()=>setPage('about')}>About</button>
-        <button className='hifi-sidebar-button' onClick={()=>setPage('services')}>Services</button>
-        <button className='hifi-sidebar-button' onClick={()=>setPage('reel')}>Reel</button>
-        <button className='hifi-sidebar-button' onClick={()=>setPage('contact')}>Contact</button>
+    <navbar className='sidebar-container'>
+        <button className={page === 'about' ? 'hifi-sidebar-button-active' : 'hifi-sidebar-button'} onClick={()=>setPage('about')}>About</button>
+        <button className={page === 'services' ? 'hifi-sidebar-button-active' : 'hifi-sidebar-button'} onClick={()=>setPage('services')}>Services</button>
+        <button className={page === 'reel' ? 'hifi-sidebar-button-active' : 'hifi-sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
+        <button className={page === 'contact' ? 'hifi-sidebar-button-active' : 'hifi-sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
     </navbar>
 
     <about className={page === 'about' ? 'active' : 'hide'}>
