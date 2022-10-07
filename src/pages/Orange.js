@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {  Link } from 'react-router-dom'
 import './Orange.css'
 
 const Orange = () => {
@@ -6,17 +7,21 @@ const Orange = () => {
   
   return (
   <container className="orange-container">
-    <header className='header'>
+    <header className='orange-header'>
       <h1>
         ORANGE CHAIR PRODUCTIONS
       </h1>
     </header>
 
      <navbar className='sidebar-container'>
-        <button className={page === 'about' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('about')}>About</button>
-        <button className={page === 'services' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('services')}>Services</button>
-        <button className={page === 'reel' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
-        <button className={page === 'contact' ? 'sidebar-button-active' : 'sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
+        <button className={page === 'about' ? 'orange-sidebar-button-active' : 'orange-sidebar-button'} onClick={()=>setPage('about')}>About</button>
+        <button className={page === 'services' ? 'orange-sidebar-button-active' : 'orange-sidebar-button'} onClick={()=>setPage('services')}>Services</button>
+        <button className={page === 'reel' ? 'orange-sidebar-button-active' : 'orange-sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
+        <button className={page === 'contact' ? 'orange-sidebar-button-active' : 'orange-sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
+        <container className="link-button-container">
+            <Link to='/lofi'><button className='link-button'>Lo-Fi Productions</button></Link>
+            <Link to='/hifi'><button className='link-button'>Hi-Fi Studios</button></Link>
+          </container>
     </navbar>
 
     <about className={page === 'about' ? 'active' : 'hide'}>

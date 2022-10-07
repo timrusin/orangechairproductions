@@ -1,0 +1,115 @@
+.orange-container{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-container{
+    position: fixed;
+    display: flex;
+    margin-top: 500px;
+    margin-left: 30px;
+    width: 10%;
+    height: 400px;
+    flex-direction: column;
+    align-content: left;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.link-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: -30px;
+}
+
+.link-button{
+    background: none;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+    cursor: pointer;
+    transition: all 400ms;
+    filter: opacity(.5)
+}
+
+.displayed{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(28, 28, 28);
+    color: rgb(188, 188, 188);
+}
+
+.active{
+    position: absolute;
+    top: 150px;
+    left: 25%;
+    width: 80%;
+}
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .orange-container{
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .orange-header{
+        font-size: 3vw;
+    }
+
+    .sidebar-container{
+        position: fixed;
+        top: -375px;
+        margin-left: 0;
+        flex-direction: row;
+        height: 50px;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .link-button-container{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 90px;
+        border-bottom: solid white 1px;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .link-button{
+        margin: 0 20px;
+        color: white;
+        font-size: 3vw;
+        border: none;
+        cursor: pointer;
+        
+    }
+
+    .active{
+        position: absolute;
+        top: 180px;
+        left: 7.5%;
+    }
+
+    .displayed{
+        width: 100%;
+    }
+}
+

@@ -1,10 +1,4 @@
-.orange-container{
-    padding-top: 120px;
-    display: flex;
-    align-items: center;
-}
-
-.header{
+.orange-header{
     z-index: 999;
     position: fixed;
     color: #ffcd0c;
@@ -13,25 +7,11 @@
     left: 10px;
 }
 
-.sidebar-container{
-    position: fixed;
-    display: flex;
-    margin-top: 400px;
-    margin-left: 20px;
-    width: 10%;
-    height: 300px;
-    flex-direction: column;
-    align-content: left;
-    justify-content: space-between;
-    z-index: 100;
-}
-
-
-.sidebar-button:hover{
+.orange-sidebar-button:hover{
     background-color: #ffcd0c;
     filter: opacity(1)
 }
-.sidebar-button-active{
+.orange-sidebar-button-active{
     background: #ffcd0c;
     font-size: 2vw;
     border-radius: 5px;
@@ -41,7 +21,7 @@
     transition: all 400ms;
 }
 
-.sidebar-button{
+.orange-sidebar-button{
     background: none;
     color: white;
     font-size: 2vw;
@@ -53,73 +33,20 @@
     transition: all 400ms;
     filter: opacity(.5)
 }
-.active{
-    position: absolute;
-    top: 150px;
-    left: 25%;
-    width: 80%;
-}
-
-.hide{
-    display: none;
-}
-
-.displayed{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2%;
-    width: 80%;
-    height: auto;
-    border-radius: 15px;
-    background-color: rgb(28, 28, 28);
-    color: rgb(188, 188, 188);
-}
 
 
-@media screen and (max-width: 700px) {
-    .orange-container{
-        padding-top: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .header{
-        font-size: 3vw;
-    }
-
-    .sidebar-container{
-        position: fixed;
-        top: -260px;
-        margin-left: 0;
-        flex-direction: row;
-        height: 50px;
-        width: 100%;
-        justify-content: space-around;
-    }
-
-    .sidebar-button{
+@media screen and (max-width: 600px) {
+    .orange-sidebar-button{
         font-size: 100%;
         width: 80px;
         cursor: pointer;
         transition: all 400ms;
     }
 
-    .sidebar-button-active{
+    .orange-sidebar-button-active{
         font-size: 100%;
         width: 80px;
         transition: all 400ms;
     }
-
-    .active{
-        position: absolute;
-        top: 180px;
-        left: 7.5%;
-    }
-
-    .displayed{
-        width: 100%;
-    }
-
 }

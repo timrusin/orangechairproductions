@@ -35,26 +35,9 @@
     left: 10px;
 }
 
-@media screen and (max-width: 700px) {
-    .orange-container{
-        padding-top: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hifi-header{
+@media screen and (max-width: 600px) {
+   .hifi-header{
         font-size: 3vw;
-    }
-
-    .sidebar-container{
-        position: fixed;
-        top: -260px;
-        margin-left: 0;
-        flex-direction: row;
-        height: 50px;
-        width: 100%;
-        justify-content: space-around;
     }
 
     .hifi-sidebar-button{
@@ -68,16 +51,5 @@
         font-size: 100%;
         width: 80px;
         transition: all 400ms;
-    }
-
-    .active{
-        position: absolute;
-        top: 180px;
-        left: 7.5%;
-        /* width: 80%; */
-    }
-
-    .displayed{
-        width: 100%;
     }
 }

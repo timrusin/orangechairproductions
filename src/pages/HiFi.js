@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './HiFi.css'
 
 const HiFi = () => {
@@ -17,6 +18,10 @@ const HiFi = () => {
         <button className={page === 'services' ? 'hifi-sidebar-button-active' : 'hifi-sidebar-button'} onClick={()=>setPage('services')}>Services</button>
         <button className={page === 'reel' ? 'hifi-sidebar-button-active' : 'hifi-sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
         <button className={page === 'contact' ? 'hifi-sidebar-button-active' : 'hifi-sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
+          <container className="link-button-container">
+            <Link to='/lofi'><button className='link-button'>Lo-Fi Productions</button></Link>
+            <Link to='/orangechair'><button className='link-button'>Orange Chair Productions</button></Link>
+          </container>
     </navbar>
 
     <about className={page === 'about' ? 'active' : 'hide'}>
