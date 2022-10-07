@@ -77,7 +77,7 @@
         height: 35px;
         width: 100%;
         justify-content: space-around;
-        background: inherit;
+        background: rgb(27, 27, 27);
         box-shadow: 0 0 40px rgb(27, 27, 27);
     }
 
