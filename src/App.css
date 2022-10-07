@@ -74,9 +74,11 @@
         top: -375px;
         margin-left: 0;
         flex-direction: row;
-        height: 50px;
+        height: 35px;
         width: 100%;
         justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.33);
+        box-shadow: 0 0 10px black;
     }
 
     .link-button-container{
