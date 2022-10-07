@@ -36,13 +36,12 @@
 }
 
 @media screen and (max-width: 600px) {
-    
+
    .hifi-header{
-        position: relative;
-        left: 0px;
-        top: -50px;
+        position: fixed;
+        left: 124px;
+        top: 72px;
         font-size: 3vw;
-        text-align: center;
     }
 
     .hifi-sidebar-button{

@@ -70,6 +70,7 @@
 
     .sidebar-container{
         position: fixed;
+        z-index: 999;
         top: -375px;
         margin-left: 0;
         flex-direction: row;
@@ -91,6 +92,7 @@
         position: absolute;
         top: 180px;
         left: 7.5%;
+        z-index:0;
     }
 
     .displayed{

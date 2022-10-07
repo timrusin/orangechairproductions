@@ -39,11 +39,11 @@
 @media screen and (max-width: 600px) {
 
     .orange-header{
-        position: relative;
-        left: 0px;
-        top: -50px;
+        position: fixed;
+        left: 10px;
+        width: 375px;
+        top: 72px;
         font-size: 3vw;
-        text-align: center;
     }
 
     .orange-sidebar-button{
