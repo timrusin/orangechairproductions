@@ -75,10 +75,21 @@
 
     .nav-list-item {
         text-decoration: none;
-        color: white;
         font-size: 5.5vw;
         list-style: none;
         margin-bottom: 5px;
+    }
+
+    .color-yellow {
+        color: #ffcd0c;
+    }
+
+    .color-magenta {
+        color: #d007a9;
+    }
+
+    .color-aqua {
+        color: #05acaf;
     }
 
     .hide {

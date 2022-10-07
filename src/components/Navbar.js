@@ -19,9 +19,9 @@ const Navbar = () => {
             <h4 className="sub-title">A Boutique Production Company Offering A La Carte or Complete Service for the Film & Video World</h4>
         </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-              <Link to='/orangechair' onClick={()=>setClick(!click)}><li className="nav-list-item">Orange Chair Productions</li></Link>
-              <Link to='lofi' onClick={()=>setClick(!click)}><li className="nav-list-item">Lo-Fi Productions</li></Link>
-              <Link to='hifi' onClick={()=>setClick(!click)}><li className="nav-list-item">Hi-Fi Studios</li></Link>
+              <Link to='/orangechair' onClick={()=>setClick(!click)}><li className="nav-list-item color-yellow">Orange Chair Productions</li></Link>
+              <Link to='lofi' onClick={()=>setClick(!click)}><li className="nav-list-item color-magenta">Lo-Fi Productions</li></Link>
+              <Link to='hifi' onClick={()=>setClick(!click)}><li className="nav-list-item color-aqua">Hi-Fi Studios</li></Link>
             </ul>
     </nav>
   );
