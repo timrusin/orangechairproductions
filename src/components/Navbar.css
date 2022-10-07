@@ -40,9 +40,6 @@
     cursor: pointer;
     transition: all 400ms;
 }
-.main-title:hover {
-    color: #d18f7f;
-}
 
 .sub-title {
     position: relative;
@@ -67,10 +64,6 @@
         width: 100%;
         top: -100px;
         left: 65px;
-    }
-
-    .main-title:hover {
-        color: white;
     }
 
     .sub-title{
