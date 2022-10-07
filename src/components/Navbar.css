@@ -141,11 +141,6 @@
     .navbar{
         height: 80px;
     }
-
-    .logo{
-        /* position: relative; */
-        
-    }
     
     .title{
         margin-left: -3px;
@@ -153,7 +148,7 @@
     }
     
     .main-title{
-        font-size: 7vw;
+        font-size: 1.6em;
         width: 100%;
         top: -100px;
         left: 65px;
@@ -165,7 +160,7 @@
 
     .sub-title{
         width: 70%;
-        font-size: 2.5vw;
+        font-size: .6em;
         top: -122px;
         left: 80px;
     }
@@ -208,4 +203,8 @@
     .hide {
         display: none;
     }
+}
+
+@media screen and (max-width: 920px) {
+
 }
