@@ -1,10 +1,13 @@
 .orange-container{
-    text-align: center;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
 }
 
 .sidebar-container{
+    position: fixed;
     display: flex;
-    margin-top: 20vh;
+    margin-top: 400px;
     margin-left: 20px;
     width: 10%;
     height: 300px;
@@ -14,7 +17,7 @@
     z-index: 100;
 }
 
-.orange-sidebar-button{
+.sidebar-button{
     background: none;
     color: white;
     font-size: 2vw;
@@ -27,56 +30,69 @@
     filter: opacity(.5)
 }
 
-.orange-sidebar-button:hover{
+.sidebar-button:hover{
     background-color: #ffcd0c;
     filter: opacity(1)
 }
 
-.about{
+.active{
     position: absolute;
-    top: 80px;
-    left: 45%;
-}
-.services{
-    position: absolute;
-    top: 80px;
-    left: 45%;
-}
-.reel{
-    position: absolute;
-    top: 80px;
-    left: 45%;
-}
-.contact{
-    position: absolute;
-    top: 80px;
-    left: 45%;
+    top: 150px;
+    left: 25%;
+    width: 80%;
 }
 
 .hide{
     display: none;
 }
 
+.displayed{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    width: 80%;
+    height: auto;
+    border: rgb(132, 132, 132) 2px solid;
+    border-radius: 15px;
+    background-color: rgb(28, 28, 28);
+    color: rgb(188, 188, 188);
+}
 
-@media screen and (max-width: 1050px) {
-    .orange-sidebar-container{
-        position:absolute;
-        top: -60px;
+
+@media screen and (max-width: 700px) {
+    .orange-container{
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebar-container{
+        position: fixed;
+        top: -300px;
         margin-left: 0;
         flex-direction: row;
-        height: 6%;
+        height: 50px;
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
-    .orange-sidebar-button{
+    .sidebar-button{
         font-size: 100%;
-        padding: 1%;
-        margin: 1%;
-        box-shadow: 0 0 5px white;
+        width: 80px;
         cursor: pointer;
         transition: all 400ms;
-        filter: opacity(.5)
+    }
+
+    .active{
+        position: absolute;
+        top: 180px;
+        left: 7.5%;
+        /* width: 80%; */
+    }
+
+    .displayed{
+        width: 100%;
     }
 
 }

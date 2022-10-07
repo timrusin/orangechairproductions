@@ -1,5 +1,5 @@
 .home-container{
-    padding-top: 50px;
+    padding-top: 120px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ a:hover{
     filter: brightness(1.05);
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 700px) {
     .circle{
         font-size: 20px;
         width: 200px;

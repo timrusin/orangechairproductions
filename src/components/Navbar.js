@@ -9,13 +9,13 @@ const Navbar = () => {
 
   return (
 
-    <nav>
-      <div className={click ? "navbar active" : "navbar"}>
+    <nav className='navbar'>
+      {/* <div className={click ? "navbar active" : "navbar"}>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-dash menu-dashes-angle1" : "fas fa-dash menu-dashes"}/>
           <i className={click ? "fas fa-dash menu-dashes-angle2" : "fas fa-dash menu-dashes"}/>
           <i className={click ? "fas fa-dash menu-dashes-angle2" : "fas fa-dash menu-dashes"}/>
-        </div>
+        </div> */}
 
         <div className='title'>
           <Link className="title-link" to="/">
@@ -28,15 +28,15 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className={click ? "nav-menu active" : "nav-menu"}>
+        {/* <div className={click ? "nav-menu active" : "nav-menu"}>
           <nav className="nav-links">
             <Link to="" className='nav-item' onClick={closeMenu}>Link 1</Link>
             <Link to="" className='nav-item' onClick={closeMenu}>Link 2</Link>
             <Link to="" className='nav-item' onClick={closeMenu}>Link 3</Link>
             
           </nav>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
     </nav>
   );
