@@ -77,7 +77,7 @@
         height: 35px;
         width: 100%;
         justify-content: space-around;
-        background-color: rgba(28, 28, 28);
+        background-color: rgb(0, 0, 0);
         box-shadow: 0 0 40px  rgb(0, 0, 0);
     }
 
