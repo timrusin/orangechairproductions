@@ -141,16 +141,22 @@
     .navbar{
         height: 80px;
     }
+
+    .logo{
+        /* position: relative; */
+        
+    }
     
     .title{
-        margin-left: 0px;
+        margin-left: -3px;
+        width: 100%;
     }
     
     .main-title{
-        font-size: 1.5em;
-        width: 77%;
+        font-size: 7vw;
+        width: 100%;
         top: -100px;
-        left: 60px;
+        left: 65px;
     }
 
     .main-title:hover {
@@ -158,10 +164,10 @@
     }
 
     .sub-title{
-        width: 60%;
-        font-size: .6em;
-        top: -118px;
-        left: 75px;
+        width: 70%;
+        font-size: 2.5vw;
+        top: -122px;
+        left: 80px;
     }
 
     .menu-icon {
