@@ -68,10 +68,6 @@
         align-items: center;
     }
 
-    .orange-header{
-        font-size: 3vw;
-    }
-
     .sidebar-container{
         position: fixed;
         top: -375px;
@@ -83,22 +79,11 @@
     }
 
     .link-button-container{
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        top: 90px;
-        border-bottom: solid white 1px;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
+        display: none;
     }
 
     .link-button{
-        margin: 0 20px;
-        color: white;
-        font-size: 3vw;
-        border: none;
-        cursor: pointer;
+       display: none;
         
     }
 

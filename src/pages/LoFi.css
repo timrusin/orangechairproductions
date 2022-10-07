@@ -37,13 +37,19 @@
 
 
 @media screen and (max-width: 600px) {
+    
     .lofi-header{
+        position: relative;
+        left: 0px;
+        top: -50px;
         font-size: 3vw;
+        text-align: center;
     }
 
     .lofi-sidebar-button{
         font-size: 100%;
         width: 80px;
+        height: 30px;
         cursor: pointer;
         transition: all 400ms;
     }
@@ -51,6 +57,7 @@
     .lofi-sidebar-button-active{
         font-size: 100%;
         width: 80px;
+        height: 30px;
         transition: all 400ms;
     }
 }

@@ -18,7 +18,7 @@ const Orange = () => {
         <button className={page === 'services' ? 'orange-sidebar-button-active' : 'orange-sidebar-button'} onClick={()=>setPage('services')}>Services</button>
         <button className={page === 'reel' ? 'orange-sidebar-button-active' : 'orange-sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
         <button className={page === 'contact' ? 'orange-sidebar-button-active' : 'orange-sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
-        <container className="link-button-container">
+          <container className="link-button-container">
             <Link to='/lofi'><button className='link-button'>Lo-Fi Productions</button></Link>
             <Link to='/hifi'><button className='link-button'>Hi-Fi Studios</button></Link>
           </container>
