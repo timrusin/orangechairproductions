@@ -4,7 +4,7 @@
     background: rgb(27, 27, 27);
     z-index: 500;
     height: 90px;
-    width: 50%;
+    width: 100%;
     color: white;
     border-bottom: rgba(255, 255, 255, 0.49) 1px solid;
 }
