@@ -100,7 +100,7 @@
     }
 
     .menu-icon-180 {
-        transform: rotate(180deg);
+        transform: rotate(540deg);
         transition: all 400ms ease;
     }
 
