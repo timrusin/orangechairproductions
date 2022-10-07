@@ -76,8 +76,9 @@
     .nav-list-item {
         text-decoration: none;
         color: white;
+        font-size: 5.5vw;
         list-style: none;
-        margin-bottom: 3px;
+        margin-bottom: 5px;
     }
 
     .hide {
@@ -98,7 +99,7 @@
     }
 
     .nav-menu.active {
-        height: 70px;
+        height: 95px;
         width: 100%;
         background: rgb(27, 27, 27);
         top: 62px;
