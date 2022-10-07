@@ -6,12 +6,19 @@ const Orange = () => {
   
   return (
   <container className="orange-container">
+    <header className='header'>
+      <h1>
+        ORANGE CHAIR PRODUCTIONS
+      </h1>
+    </header>
+
      <navbar className='sidebar-container'>
         <button className='sidebar-button' onClick={()=>setPage('about')}>About</button>
         <button className='sidebar-button' onClick={()=>setPage('services')}>Services</button>
         <button className='sidebar-button' onClick={()=>setPage('reel')}>Reel</button>
         <button className='sidebar-button' onClick={()=>setPage('contact')}>Contact</button>
     </navbar>
+
     <about className={page === 'about' ? 'active' : 'hide'}>
       <section className='displayed'>
         <h1>Testing about</h1>

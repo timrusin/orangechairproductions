@@ -4,6 +4,14 @@
     align-items: center;
 }
 
+.header{
+    z-index: 999;
+    position: fixed;
+    text-shadow:0 0 10px #a6a6a6;
+    top: 80px;
+    left: 10px;
+}
+
 .sidebar-container{
     position: fixed;
     display: flex;
@@ -53,7 +61,6 @@
     padding: 2%;
     width: 80%;
     height: auto;
-    /* border: rgb(132, 132, 132) 2px solid; */
     border-radius: 15px;
     background-color: rgb(28, 28, 28);
     color: rgb(188, 188, 188);
@@ -67,9 +74,14 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .header{
+        font-size: 3vw;
+    }
+
     .sidebar-container{
         position: fixed;
-        top: -300px;
+        top: -260px;
         margin-left: 0;
         flex-direction: row;
         height: 50px;
