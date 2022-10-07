@@ -78,7 +78,7 @@
         width: 100%;
         justify-content: space-around;
         background-color: rgba(28, 28, 28);
-        box-shadow: 0 0 40px  rgba(28, 28, 28);
+        box-shadow: 0 0 40px  rgb(0, 0, 0);
     }
 
     .link-button-container{
