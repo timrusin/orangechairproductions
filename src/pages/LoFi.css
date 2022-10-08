@@ -27,12 +27,10 @@
     box-shadow: 0 0 5px white;
     cursor: pointer;
     transition: all 400ms;
-    filter: opacity(.5)
 }
 
 .lofi-sidebar-button:hover{
     background-color: #d007a9;
-    filter: opacity(1)
 }
 
 

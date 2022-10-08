@@ -18,11 +18,9 @@
     box-shadow: 0 0 5px white;
     cursor: pointer;
     transition: all 400ms;
-    filter: opacity(.5)
 }
 .hifi-sidebar-button:hover{
     background-color: #05acaf;
-    filter: opacity(1)
 }
 
 

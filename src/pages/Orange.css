@@ -7,10 +7,6 @@
     left: 10px;
 }
 
-.orange-sidebar-button:hover{
-    background-color: #ffcd0c;
-    filter: opacity(1)
-}
 .orange-sidebar-button-active{
     background: #ffcd0c;
     font-size: 2vw;
@@ -31,7 +27,9 @@
     box-shadow: 0 0 5px white;
     cursor: pointer;
     transition: all 400ms;
-    filter: opacity(.5)
+}
+.orange-sidebar-button:hover{
+    background-color: #ffcd0c;
 }
 
 
