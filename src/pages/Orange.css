@@ -3,8 +3,6 @@
     position: fixed;
     color: #ffcd0c;
     text-shadow:0 0 5px #a6a6a6;
-    background: rgba(27, 27, 27, 0.838);
-    border-radius: 10px;
     height: 48px;
     top: 80px;
     left: 10px;
@@ -42,6 +40,8 @@
     .orange-header{
         z-index: 10;
         position: fixed;
+        background: rgba(27, 27, 27, 0.838);
+        border-radius: 10px;
         left: 12px;
         width: 375px;
         top: 72px;
