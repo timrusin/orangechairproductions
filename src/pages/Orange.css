@@ -33,6 +33,13 @@
     background-color: #ffcd0c;
 }
 
+.lofi:hover{
+    color: #d007a9;
+}
+
+.hifi:hover{
+    color: #05acaf
+}
 
 
 @media screen and (max-width: 600px) {

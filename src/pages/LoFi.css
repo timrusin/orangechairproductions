@@ -34,6 +34,9 @@
     background-color: #d007a9;
 }
 
+.orangechair:hover{
+    color: #ffcd0c;
+}
 
 @media screen and (max-width: 600px) {
 

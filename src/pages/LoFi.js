@@ -19,8 +19,8 @@ const LoFi = () => {
         <button className={page === 'reel' ? 'lofi-sidebar-button-active' : 'lofi-sidebar-button'} onClick={()=>setPage('reel')}>Reel</button>
         <button className={page === 'contact' ? 'lofi-sidebar-button-active' : 'lofi-sidebar-button'} onClick={()=>setPage('contact')}>Contact</button>
           <container className="link-button-container">
-            <Link to='/hifi'><button className='link-button'>Hi-Fi Studios</button></Link>
-            <Link to='/orangechair'><button className='link-button'>Orange Chair Productions</button></Link>
+            <Link to='/hifi'><button className='link-button hifi'>Hi-Fi Studios</button></Link>
+            <Link to='/orangechair'><button className='link-button orangechair'>Orange Chair Productions</button></Link>
           </container>
     </navbar>
 
