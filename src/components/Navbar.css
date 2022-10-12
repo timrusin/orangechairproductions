@@ -74,7 +74,7 @@
 
     .nav-list-item {
         text-decoration: none;
-        font-size: 5.5vw;
+        font-size: 21px;
         list-style: none;
         margin-bottom: 5px;
     }
@@ -94,9 +94,7 @@
     .hide {
         display: none;
     }
-}
 
-@media screen and (max-width: 600px) {
     .menu-icon {
         display: flex;
         flex-direction: column;

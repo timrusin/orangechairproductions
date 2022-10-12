@@ -86,7 +86,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 920px) {
     .orange-container{
         padding-top: 120px;
         display: flex;

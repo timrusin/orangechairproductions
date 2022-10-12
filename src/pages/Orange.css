@@ -42,17 +42,16 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 920px) {
 
     .orange-header{
         z-index: 10;
-        position: fixed;
         background: rgba(27, 27, 27, 0.838);
         border-radius: 10px;
         left: 12px;
         width: 375px;
         top: 72px;
-        font-size: 3vw;
+        font-size: 11px;
     }
 
     .orange-sidebar-button{
@@ -69,5 +68,11 @@
         width: 80px;
         height: 30px;
         transition: all 400ms;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .orange-header {
+        text-align: center;
     }
 }
